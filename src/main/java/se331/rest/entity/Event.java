@@ -27,6 +27,15 @@ public class Event {
     String time;
     Boolean petAllowed;
     String organizer;
+
+    public Long getID() {
+        return id;
+    }
+
+    public void setID(Long id) {
+        this.id = id;
+    }
+
 }
 
 
